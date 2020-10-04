@@ -6,10 +6,16 @@
   <meta name="description" content="Trevor McNeil's personal site, which also doubles as Trevor's first website.">
   <title>Trevor McNeil</title>
   <style>
-    p {
+    body{
+      background-color: pink;
       width: 80%;
+      margin: auto;
+    }
+
+    p {
       text-align: left;
     }
+
     td{
       text-align: left;
       vertical-align: center;
@@ -17,7 +23,7 @@
   </style>
 </head>
 
-<body style="background-color:pink">
+<body>
   <center>
     <h1>Trevor McNeil</h1>
     <img src="picture.jpg" alt="Picture of Trevor McNeil" title="Picture of Trevor McNeil" width="384" height="216">
@@ -31,12 +37,45 @@
     <p>Link to: <a href="4_year_plan.html">My College Plan</a></p>
   </center>
   <hr>
-  <h3>Education</h3>
-  <p>Virginia Polytechnic Institute and State University - Class of 2022<br>Majors:</p>
-  <ul>
-    <li>Electrical Engineering</li>
-    <li>Computer Science</li>
-  </ul>
+  <h3>Work Experience</h3>
+    <table>
+      <tr>
+        <td style="padding: 0 200px 0 0">Dining Hall - D2<br><i>Virginia Tech, Blacksburg VA</i></td>
+        <td style="vertical-align: text-top">January - May 2019</td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <ul style="text-indent: 30px">
+            <li>Learned about customer service and interpersonal communication</li>
+            <li>Learned to adapt on the job through working different positions every shift</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0 200px 0 0">Engineering Internship<br><i>Metalogix, San Antonio TX</i></td>
+        <td style="vertical-align: text-top">December 2018 - January 2019</td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <ul style="text-indent: 30px">
+            <li>Worked through the research and design process</li>
+            <li>Edited reports and created Excel spread sheets</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0 200px 0 0">Music Instructor<br><i>School of Rock, San Antonio TX</i></td>
+        <td style="vertical-align: text-top">May - August 2018</td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <ul style="text-indent: 30px">
+            <li>Learned to simplify information, and adapt to the students needs</li>
+            <li>Worked with students in both 1-on-1 and group settings regularly</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
   <hr>
   <h3>Skills</h3>
   <table>
@@ -49,6 +88,13 @@
       <tr><td colspan=3>Arduino</td><td>Skilled</td></tr>
     </tbody>
   </table>
+  <hr>
+  <h3>Education</h3>
+  <p>Virginia Polytechnic Institute and State University - Class of 2022<br>Majors:</p>
+  <ul>
+    <li>Electrical Engineering</li>
+    <li>Computer Science</li>
+  </ul>
   <hr>
   <h3>Hobbies &amp; Interests</h3>
   <ol>
@@ -66,11 +112,25 @@
   </ol>
   <hr>
   <h3 id="contact">Contact Information</h1>
+    <p>Feel free to contact me with my information below, <br> or use the form below to leave me a message and I<br>will reply as soon as I recieve it</p>
     <address>
       Trevor McNeil<br>
       (210)-872-4659<br>
       <a href="mailto:tmcneil2379@vt.edu">tmcneil2379@vt.edu</a>
     </address>
+    <br>
+    <form style="width: 195px" name="Contact_me" enctype="text/plain">
+      <label for="Name">Name: </label>
+      <input name="Name" type="text"><br>
+      <label for="email">Email: </label>
+      <input name="email" type="email"><br>
+      <label for="Message">Your message</label><br>
+      <textarea name="Message" rows="8" cols="21"></textarea><br>
+      <input style="float: right" type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
