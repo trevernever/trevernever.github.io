@@ -1,0 +1,31 @@
+body{
+  background-color: pink;
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  text-align: left;
+}
+/*parapraph tags*/
+.center{
+  text-align: center;
+ }
+
+td{
+  text-align: left;
+  vertical-align: center;
+}
+
+ul{
+  text-indent: 30px;
+}
+
+/*unique tags for index.html*/
+/*td tags*/
+td.date{
+  vertical-align: text-top;
+}
+td.job_title{
+  padding: 0 200px 0 0;
+}

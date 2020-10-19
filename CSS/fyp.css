@@ -1,0 +1,70 @@
+thead{
+  background-color: white;
+}
+
+tbody {
+  text-align: center;
+  vertical-align: center;
+  height: 20px;
+  background-color: white;
+}
+
+/*td tags*/
+td.empty{
+  background-color: pink;
+}
+td.summerny{
+  background-color: LightCoral;
+}
+td.summerc{
+  background-color: LightGreen;
+}
+td.CRN{
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+}
+td.name{
+  border-right: 1px solid black;
+}
+td.hours{
+  border-right: 2px solid black;
+}
+td.t1{
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+}
+td.t2{
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+td.sum_bottom_crn_hour{
+  border-bottom: 2px solid black;
+}
+td.sum_bottom_name{
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+}
+
+/*th tags*/
+th.crnh{
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+}
+th.term{
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+th.hoursh{
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: 2px solid black;
+}
+#current{
+  background-color: yellow;
+}
