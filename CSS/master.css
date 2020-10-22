@@ -1,0 +1,128 @@
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #CD1E1E;
+}
+
+body{
+  margin: 0 0 0 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div.div1{
+  margin-top: 100px;
+}
+
+div.container{
+  padding: 2em 10em;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div.centered{
+  align-items: center;
+}
+
+div.container_col{
+  position: relative;
+  width: 100%;
+  padding: 0 4em;
+}
+
+div.resume{
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1.title{
+  font-size: 45px;
+}
+
+header{
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+}
+
+hr{
+  color: grey;
+}
+
+hr.break{
+  width: 8%;
+  margin: 2em auto;
+  border: none;
+  border-bottom: 15px dotted #C0C0C0;
+}
+
+img.proj{
+  width: 400px;
+  height: 400px;
+}
+img.abt{
+  width: 250px;
+  height: 250px;
+}
+
+p{
+  text-align: left;
+}
+
+p.sub{
+  color: #606060;
+}
+
+.color1{
+  background-color: #d9adad;
+}
+
+.color2{
+  background-color: #cadcc8;
+}
+
+.color3{
+  background-color: #bbe3e9;
+}
+
+.color4{
+  background-color: #e0c1ff;
+}
+
+.center{
+  text-align: center;
+}
+
+.round{
+  border-radius: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul.nav{
+  background-color: grey;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav li{
+  float: left;
+}
+
+ul.nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+ul.nav li a:hover{
+  background-color: #A0A0A0;
+}

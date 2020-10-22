@@ -1,59 +1,3 @@
-////////////////////////////<!--DIV FORMATTING-->///////////////////////////////
-div{
-  margin: auto;
-}
-
-div.fyp_grid{
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 50px 150px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-}
-
-div.fyp_grid_ff{
-  grid-column: 1;
-  grid-row: 1;
-}
-div.fyp_grid_fs{
-  grid-column: 2;
-  grid-row: 1;
-}
-div.fyp_grid_sof{
-  grid-column: 1;
-  grid-row: 2;
-}
-div.fyp_grid_sos{
-  grid-column: 2;
-  grid-row: 2;
-}
-div.fyp_grid_jf{
-  grid-column: 1;
-  grid-row: 3;
-}
-div.fyp_grid_js{
-  grid-column: 2;
-  grid-row: 3;
-}
-div.fyp_grid_sef{
-  grid-column: 1;
-  grid-row: 4;
-}
-div.fyp_grid_ses{
-  grid-column: 2;
-  grid-row: 4;
-}
-div.fyp_grid_spf{
-  grid-column: 1;
-  grid-row: 5;
-}
-div.fyp_grid_sum{
-  grid-column: 2;
-  grid-row: 5;
-}
-
-///////////////////////<!--TABLE FORMATTING-->//////////////////////////////////
 thead{
   background-color: white;
 }
@@ -61,13 +5,11 @@ thead{
 tbody {
   text-align: center;
   vertical-align: center;
+  height: 20px;
   background-color: white;
 }
 
 /*td tags*/
-td{
-  height: 20px;
-}
 td.empty{
   background-color: pink;
 }

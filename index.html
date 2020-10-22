@@ -1,122 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trevor McNeil</title>
+    <link rel="stylesheet" href="CSS/master.css">
+    <script>
+      function show(){
+        document.getElementById("show").style.display = "none";
+        document.getElementById("hide").style.display = "initial";
+        document.getElementById("resume").style.display = "block";
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Trevor McNeil's personal site, which also doubles as Trevor's first website.">
-  <title>Trevor McNeil</title>
-  <link rel="stylesheet" href="CSS/styling.css">
-  <link rel="icon" href="Programmer_icon.ico">
-  <!--Icon from https://www.flaticon.com/premium-icon/programmer_1465611-->
-</head>
+      function hide(){
+        document.getElementById("show").style.display = "initial";
+        document.getElementById("hide").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <!--<li><a href="4_year_plan.html">4 Year Plan</a></li>-->
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+      <hr>
+    </header>
+    <div class="div1">
 
-<body>
-  <center>
-    <h1>Trevor McNeil</h1>
-    <img src="picture.jpg" alt="Picture of Trevor McNeil" title="Picture of Trevor McNeil" width="384" height="216">
-    <p class="center"><em>Junior in Electrical Engineering and Computer Science at Virginia Tech</em></p>
-    <p>I am a student at Virginia Tech. I am currently pursuing a double major in Electrical Engineering, with a focus in Controls, Robotics, and Autonomy, and Computer Science, with a focus in Software
-      Development. Currently, I do not participate in any research, but I am trying to look for a research position. I am an officer of the TRE, or Teach Robotics and Engineering club. I am currently learning Web development, game design, c++ and a few
-      other skills from online courses at udemy and linkedin. I am also passionate about music, I can play 5 instruments: Drums, Bass, Guitar, Keyboard, and the Ocarina (2 mainly, Drums and Bass) and am a member of the amp lab at Virginia Tech, where I am designing a portable
-      bluetooth speaker that I would like to eventually turn into a wireless sound system.</p>
-    <p>Link to: <a href="#contact">Contact Information</a></p>
-    <p>Link to: <a href="4_year_plan.html">My College Plan</a></p>
-  </center>
-  <hr>
-  <h3>Work Experience</h3>
-    <table>
-      <tr>
-        <td class="job_title">Dining Hall - D2<br><i>Virginia Tech, Blacksburg VA</i></td>
-        <td class="date">January - May 2019</td>
-      </tr>
-      <tr>
-        <td colspan=2>
-          <ul>
-            <li>Learned about customer service and interpersonal communication</li>
-            <li>Learned to adapt on the job through working different positions every shift</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="job_title">Engineering Internship<br><i>Metalogix, San Antonio TX</i></td>
-        <td class="date">December 2018 - January 2019</td>
-      </tr>
-      <tr>
-        <td colspan=2>
-          <ul>
-            <li>Worked through the research and design process</li>
-            <li>Edited reports and created Excel spread sheets</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="job_title">Music Instructor<br><i>School of Rock, San Antonio TX</i></td>
-        <td class="date">May - August 2018</td>
-      </tr>
-      <tr>
-        <td colspan=2>
-          <ul>
-            <li>Learned to simplify information, and adapt to the students needs</li>
-            <li>Worked with students in both 1-on-1 and group settings regularly</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <colgroup span=14 width=45></colgroup>
-    <tbody>
-      <tr><td colspan=3>Java</td><td>Skilled</td><td></td><td colspan=3>Web Development</td><td>Intermediate</td><td></td><td colspan=3>Blockchain</td><td>Beginner</td></tr>
-      <tr><td colspan=3>C/C++</td><td>Skilled</td><td></td><td colspan=3>MATLAB</td><td>Intermediate</td></tr>
-      <tr><td colspan=3>Microsoft Excel</td><td>Skilled</td><td></td><td colspan=3>LT-Spice</td><td>Intermediate</td></tr>
-      <tr><td colspan=3>Python</td><td>Skilled</td></tr>
-      <tr><td colspan=3>Arduino</td><td>Skilled</td></tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <p>Virginia Polytechnic Institute and State University - Class of 2022<br>Majors:</p>
-  <ul>
-    <li>Electrical Engineering</li>
-    <li>Computer Science</li>
-  </ul>
-  <hr>
-  <h3>Hobbies &amp; Interests</h3>
-  <ol>
-    <li>Dungeons & Dragons</li>
-    <li>Video Games</li>
-    <li>Music</li>
-    <li>Programming</li>
-    <li>Speaker Design</li>
-    <li>Arduino</li>
-    <li>Tinkering</li>
-    <li>Cooking & Baking</li>
-    <li>Lifting Weights</li>
-    <li>Collecting</li>
-    <li>Hiking</li>
-  </ol>
-  <hr>
-  <h3 id="contact">Contact Information</h1>
-    <p>Feel free to contact me with my information below, <br> or use the form below to leave me a message and I<br>will reply as soon as I recieve it</p>
-    <address>
-      Trevor McNeil<br>
-      (210)-872-4659<br>
-      <a href="mailto:tmcneil2379@vt.edu">tmcneil2379@vt.edu</a>
-    </address>
-    <br>
-    <form style="width: 195px" name="Contact_me" enctype="text/plain">
-      <label for="Name">Name: </label>
-      <input name="Name" type="text"><br>
-      <label for="email">Email: </label>
-      <input name="email" type="email"><br>
-      <label for="Message">Your message</label><br>
-      <textarea name="Message" rows="8" cols="21"></textarea><br>
-      <input style="float: right" type="submit" value="Submit">
-    </form>
-    <br>
-    <br>
-    <br>
-</body>
-
+      <div class="container centered">
+        <div class="container_col">
+          <h1 class="title center">Welcome To My Site. My Name Is Trevor</h1>
+          <p class="sub center"> I'm a student looking to figure out what they want
+            to do by applying what they've learned about to real world applications.
+            Currently I am looking for an internship for summer 2021, or a Co-op
+            for around May 2021 through December 2021 / January 2022.</p>
+        </div>
+        <div class="container_col">
+          <h1><b>Everyone</b> is a genius, but if you judge a <b>fish</b> by its
+            ability to <b>climb</b> a tree, it will live its whole life
+            <b>beliving</b> its stupid</h1>
+          <h2 style="text-align: right;">- Albert Einstein</h2>
+        </div>
+      </div>
+      <hr class="break">
+      <p class="center" style="width: 35%; margin: 0 auto;"> Feel free to look
+        around. I talk about myself in my 'About Me' page, and I talk about
+        some of the Projects I am working on in my 'Projects' page. If you
+        would like to contanct me, you can send me a message with my Contact
+        page. Or, If you just want to take a quick look at me and what I've
+        done, I have my resume attached below. press the button to view it in 
+        the web page, or click the link to download it.</p>
+      <hr class="break">
+      <div class="resume center">
+        <a href="CV_Trevor_McNeil.pdf">Download Resume Link</a>
+        <br>
+        <button onclick="show()" type="button" id="show">Show Resume \/</button>
+        <button style="display:none;" onclick="hide()" type="button" id="hide">Hide Resume /\</button>
+        <embed style="display:none;" id="resume" src="CV_Trevor_McNeil.pdf" width="800px" height="1000px">
+      </div>
+    </div>
+  </body>
 </html>
